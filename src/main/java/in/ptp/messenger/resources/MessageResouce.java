@@ -1,4 +1,4 @@
-package in.vinkrish.messenger.resources;
+package in.ptp.messenger.resources;
 
 import java.util.List;
 
@@ -14,9 +14,9 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 
-import in.vinkrish.messenger.model.Message;
-import in.vinkrish.messenger.resources.beans.MessageFilterBean;
-import in.vinkrish.messenger.service.MessageService;
+import in.ptp.messenger.model.Message;
+import in.ptp.messenger.resources.beans.MessageFilterBean;
+import in.ptp.messenger.service.MessageService;
 
 @Path("/messages")
 @Consumes(MediaType.APPLICATION_JSON)

@@ -1,10 +1,10 @@
-package in.vinkrish.messenger.database;
+package in.ptp.messenger.database;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import in.vinkrish.messenger.model.Message;
-import in.vinkrish.messenger.model.Profile;
+import in.ptp.messenger.model.Message;
+import in.ptp.messenger.model.Profile;
 
 public class DatabaseClass {
 	

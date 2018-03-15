@@ -1,13 +1,13 @@
-package in.vinkrish.messenger.service;
+package in.ptp.messenger.service;
 
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 import java.util.Map;
 
-import in.vinkrish.messenger.database.DatabaseClass;
-import in.vinkrish.messenger.model.Message;
-import in.vinkrish.messenger.model.Profile;
+import in.ptp.messenger.database.DatabaseClass;
+import in.ptp.messenger.model.Message;
+import in.ptp.messenger.model.Profile;
 
 public class MessageService {
 	

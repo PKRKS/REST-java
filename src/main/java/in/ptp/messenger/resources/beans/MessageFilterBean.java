@@ -1,4 +1,4 @@
-package in.vinkrish.messenger.resources.beans;
+package in.ptp.messenger.resources.beans;
 
 import javax.ws.rs.QueryParam;
 

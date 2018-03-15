@@ -1,4 +1,4 @@
-package in.vinkrish.messenger;
+package in.ptp.messenger;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

@@ -1,4 +1,4 @@
-package in.vinkrish.messenger.resources;
+package in.ptp.messenger.resources;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.CookieParam;

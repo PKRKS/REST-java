@@ -1,19 +1,19 @@
-package in.vinkrish.messenger.service;
+package in.ptp.messenger.service;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import in.vinkrish.messenger.database.DatabaseClass;
-import in.vinkrish.messenger.model.Profile;
+import in.ptp.messenger.database.DatabaseClass;
+import in.ptp.messenger.model.Profile;
 
 public class ProfileService {
 	
 	private Map<String, Profile> profiles = DatabaseClass.getProfiles();
 	
 	public ProfileService () {
-		profiles.put("vinkrish", new Profile(1L, "vinkrish", "Vinay", "Krishna"));
-		profiles.put("krishvin", new Profile(2L, "krishvin", "Krishna", "Vinay"));
+		profiles.put("raj1", new Profile(1L, "raj1", "raj", "k"));
+		profiles.put("rajk1", new Profile(2L, "rajk1", "rajk", "KR"));
 	}
 
 	public List<Profile> getAllProfiles(){

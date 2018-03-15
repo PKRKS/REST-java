@@ -1,4 +1,4 @@
-package in.vinkrish.messenger.resources;
+package in.ptp.messenger.resources;
 
 import java.util.List;
 
@@ -12,8 +12,8 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import in.vinkrish.messenger.model.Profile;
-import in.vinkrish.messenger.service.ProfileService;
+import in.ptp.messenger.model.Profile;
+import in.ptp.messenger.service.ProfileService;
 
 @Path("/profiles")
 @Consumes(MediaType.APPLICATION_JSON)

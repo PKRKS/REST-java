@@ -1,4 +1,4 @@
-package in.vinkrish.messenger.model;
+package in.ptp.messenger.model;
 
 import java.util.Date;
 
